@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Racing Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <main class="game">
+        <div class="game__area" id="area"></div>
+    </main>
+
+    <aside class="settings">
+        <p class="settings__score">Score: <span id="score">0</span></p>
+        <p class="settings__record">
+            Record: <span id="record"></span>
+            <button id="reset-record">Reset Record</button>
+        </p>
+
+        <div class="buttons">
+            <h2 class="buttons__title">Select Difficulty to Start the Game:</h2>
+            <button class="buttons__btn" id="easy">Easy</button>
+            <button class="buttons__btn" id="medium">Medium</button>
+            <button class="buttons__btn" id="hard">Hard</button>
+        </div>
+    </aside>
+
+    <script src="main.js"></script>
+</body>
+</html>
